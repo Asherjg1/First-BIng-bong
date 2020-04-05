@@ -1,17 +1,11 @@
 class GamesController < ApplicationController
 
-def index 
+def index
 end
 
+def show
 
-# def show
-
- #end
-
- #def create
- #end
-
- #def new
- #end 
+app_game=Game.first
+end
 
 end
